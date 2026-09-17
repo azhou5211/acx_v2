@@ -155,7 +155,7 @@ ul{margin:0; padding:0;}
 .hero{
   position:relative; background:var(--navy); color:var(--white); overflow:hidden;
 }
-.hero .container{
+.hero .hero-inner{
   display:grid; grid-template-columns:1.05fr .95fr; align-items:center; gap:40px;
   padding-top:76px; padding-bottom:76px; min-height:560px;
 }
@@ -184,7 +184,7 @@ ul{margin:0; padding:0;}
   letter-spacing:.02em; font-size:1rem; color:#DCE6F5;
 }
 @media (max-width:880px){
-  .hero .container{grid-template-columns:1fr; padding-top:48px; padding-bottom:40px;}
+  .hero .hero-inner{grid-template-columns:1fr; padding-top:48px; padding-bottom:40px;}
   .hero-figure{order:-1; max-width:420px; margin:0 auto;}
 }
 
